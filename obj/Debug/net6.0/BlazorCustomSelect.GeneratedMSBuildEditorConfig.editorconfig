@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[e:/Github/Source/Repos/BlazorCustomSelect/Components/CustomSelect.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDdXN0b21TZWxlY3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [e:/Github/Source/Repos/BlazorCustomSelect/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

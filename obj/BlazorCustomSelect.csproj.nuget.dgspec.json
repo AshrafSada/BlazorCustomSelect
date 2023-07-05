@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\Github\\Source\\Repos\\BlazorCustomSelect\\BlazorCustomSelect.csproj": {}
+    "E:\\Github\\Source\\Repos\\BlazorCustomSelect\\BlazorCustomSelect.csproj": {}
   },
   "projects": {
-    "e:\\Github\\Source\\Repos\\BlazorCustomSelect\\BlazorCustomSelect.csproj": {
+    "E:\\Github\\Source\\Repos\\BlazorCustomSelect\\BlazorCustomSelect.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Github\\Source\\Repos\\BlazorCustomSelect\\BlazorCustomSelect.csproj",
+        "projectUniqueName": "E:\\Github\\Source\\Repos\\BlazorCustomSelect\\BlazorCustomSelect.csproj",
         "projectName": "BlazorCustomSelect",
-        "projectPath": "e:\\Github\\Source\\Repos\\BlazorCustomSelect\\BlazorCustomSelect.csproj",
+        "projectPath": "E:\\Github\\Source\\Repos\\BlazorCustomSelect\\BlazorCustomSelect.csproj",
         "packagesPath": "C:\\Users\\Ashraf\\.nuget\\packages\\",
-        "outputPath": "e:\\Github\\Source\\Repos\\BlazorCustomSelect\\obj\\",
+        "outputPath": "E:\\Github\\Source\\Repos\\BlazorCustomSelect\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

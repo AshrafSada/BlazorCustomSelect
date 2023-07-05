@@ -1,0 +1,76 @@
+/* quick reset */
+.custom_select * {
+   font: inherit;
+   padding: 0;
+   margin: 0;
+}
+/* the main component styles */
+.custom_select {
+   border: 1px solid #808080;
+   border-radius: 5px;
+   display: block;
+   align-items: center;
+}
+
+.custom_select button {
+   display: block;
+   width: 100%;
+   max-height: 37px;
+   align-items: center;
+   justify-content: space-between;
+   gap: 0.375rem;
+   background-color: transparent;
+   transition: all ease-in 0.24s;
+}
+.custom_select button:hover,
+.custom_select button:focus {
+   background-color: #0b4d5e;
+   outline-color: #202020;
+   color: #fff;
+}
+.c_search {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.c_search {
+   display: block;
+   outline: none;
+   vertical-align: middle;
+   text-align: left;
+   word-break: none;
+   word-wrap: nowrap;
+   margin: 0.125rem 0;
+}
+
+.custom_select .drop_list {
+   display: block;
+   margin: 0.125rem 0;
+   list-style: none;
+   list-style-type: none;
+   max-height: 33vh;
+   overflow: hidden;
+}
+
+.custom_select .drop_list li {
+   font: inherit;
+   padding: 0.375rem 0.125rem;
+   transition: all ease-in-out 0.18s;
+}
+
+.custom_select .drop_list li:hover,
+.custom_select .drop_list li:focus {
+   background-color: #7abbff;
+}
+
+.custom_select button,
+.c_search {
+   border: 1px solid #e1e1e6;
+   border-radius: 5px;
+   width: 100%;
+   padding: 0.45rem 0.125rem;
+}
+
+.hidden {
+   display: none !important;
+}

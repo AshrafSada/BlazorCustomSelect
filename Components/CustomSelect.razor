@@ -1,0 +1,28 @@
+@inject IJSRuntime JSRuntime
+
+<div class="dropdown_container">
+   <div class="custom_select">
+      <button type="button" class="c_button">
+         <span>Select Option</span>
+         <i class="icofont-simple-down"></i>
+      </button>
+      <input type="search" spellcheck="true" placeholder="Search options" class="c_search hidden">
+      <ul class="drop_list hidden"></ul>
+   </div>
+</div>
+
+@code {
+
+
+
+
+   protected override async Task OnAfterRenderAsync(bool firstRender)
+   {
+      if (firstRender)
+      {
+         await JSRuntime.InvokeVoidAsync("CustomSelect", DotNetObjectReference.Create(this));
+      }
+   }
+
+
+}
